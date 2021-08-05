@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.twitter-card {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;  
+}
+.nature {
+    background: url("nature.jpg") no-repeat;
+    background-size: cover;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 10px solid turquoise;
+}
+.logo {
+    width: 70px;
+    border-radius: 50%;
+    border: 10px solid turquoise;
+    position: relative;
+    bottom: -80%;
+    left: 35%;
+}
+.follow {
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+.content{
+    background-color: gainsboro;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.tweets, .followers  {
+    width: 50%;
+}
+.content {
+    height: 50%;
+}
+.follow {
+    position: relative;
+    top: -15%;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 7px;
+    margin-bottom: 0;
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
